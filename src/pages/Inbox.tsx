@@ -41,7 +41,9 @@ export default function Inbox() {
     }
 
     // Load initial contacts
-    loadContacts();
+    (async () => {
+      await loadContacts();
+    })();
 
     // Set up realtime subscription
     const channel = supabase
