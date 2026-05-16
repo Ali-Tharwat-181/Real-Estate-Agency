@@ -26,6 +26,8 @@ A multi-tenant inbox system where real estate agencies receive and manage incomi
 
 ### Setup Steps
 
+**Note:** This project was bootstrapped with `npm create vite@latest` using the React + TypeScript template.
+
 1. **Clone and install dependencies:**
 ```bash
 git clone <your-repo-url>
